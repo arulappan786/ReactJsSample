@@ -16,16 +16,16 @@ footer {
   font-size: 15px;
   position: fixed;
   bottom: 0;
-  width: 100%;  
+  width: 100%;
 }
 
 ul {
   width: 100%;
   list-style: none;
-  padding: 0.25rem 0.25rem;  
+  padding: 0.25rem 0.25rem;
 }
 
-ul li::before{
+ul li::before {
   content: "\200B";
 }
 
@@ -43,18 +43,18 @@ ul li::before{
   margin: 0;
 }
 
-.item input[type="checkbox"]:focus + label{
+.item input[type="checkbox"]:focus+label {
   text-decoration: underline;
   size: 60px;
 }
 
-.item > label{
+.item>label {
   font-size: 0.75rem;
   flex-grow: 1;
   font-size: large;
 }
 
-.item svg{
+.item svg {
   width: 48px;
   min-width: 48px;
   height: 36px;
@@ -64,7 +64,7 @@ ul li::before{
 }
 
 .item svg:focus,
-.item svg:hover{
+.item svg:hover {
   color: red;
   outline: none;
 }
